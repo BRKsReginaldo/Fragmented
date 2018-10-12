@@ -10,6 +10,11 @@
         }
     ],
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "BRKsReginaldo\\Fragmented": "src/"
+        }
+    }
     "extra": {
         "laravel": {
             "providers": [

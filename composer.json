@@ -1,0 +1,20 @@
+{
+    "name": "brksreginaldo/fragmented",
+    "description": "A laravel modules package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reginaldo Junior",
+            "email": "reginaldo@deltacoding.xyz"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BRKsReginaldo\\Fragmented\\FragmentedServiceProvider"
+            ]
+        }
+    }
+}

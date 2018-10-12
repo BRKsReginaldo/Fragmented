@@ -1,0 +1,18 @@
+<?php
+
+namespace $DummyServiceProviderNamespace$;
+
+use Illuminate\Support\ServiceProvider;
+
+class $StudlyDummyModuleName$ServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+
+    }
+
+    public function register()
+    {
+        $this->app->register(RouteServiceProvider::class);
+    }
+}
